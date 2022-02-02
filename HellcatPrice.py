@@ -13,5 +13,3 @@ def extract_price(soup_obj, tag, attribute_name, attribute_value):
 price_point = extract_price(soup, "div", "class","msrp-value")
 
 print("The price of a 2022 Dodge Charger SRT Hellcat is:", price_point)
-
-# <div class="msrp-value">$78,595</div>
